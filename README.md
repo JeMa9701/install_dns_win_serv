@@ -8,7 +8,8 @@
 
 ## 1. Zone directe
 
-![screenshot](Capture d'écran 2026-04-19 202716.png)
+![zonedirect](screenshot/Capture_d'écran_2026-04-19_202729.png)
+![zonedirect](screenshot/Capture_décran_2026-04-19_202716.png)
 
 > Configuration de la zone directe `wilders.lan` avec les enregistrements A (`srv-dns`) et CNAME (`dns`).
 
@@ -16,30 +17,24 @@
 
 ## 2. Zone indirecte
 
-![Zone indirecte](screenshot/Capture d'écran 2026-04-19 202716.png)
+![Zone indirecte](screenshot/Capture_d'écran_2026-04-19_202805.png)
 
-> Zone de recherche inversée `10.16.172.in-addr.arpa` avec l'enregistrement PTR pointant vers `srv-dns.wilders.lan`.
+> Configuration de la zone inversée `10.16.172.in-addr.arpa` avec l'enregistrement PTR pointant vers `srv-dns.wilders.lan`.
 
 ---
 
-## 3. Ping vers le nom A — `srv-dns.wilders.lan`
+## 3. Ping vers le nom A — `srv-dns.wilders.lan` et Ping vers le CNAME — `dns.wilders.lan`
 
-![Ping srv-dns]()
+![Ping srv-dns](screenshot/Capture_d'écran_2026-04-19_204624.png)
 
 > Ping depuis le client vers l'enregistrement A du serveur DNS.
-
----
-
-## 4. Ping vers le CNAME — `dns.wilders.lan`
-
-![Ping CNAME]()
-
 > Ping depuis le client vers l'alias CNAME du serveur DNS.
 
 ---
 
 ## 5. nslookup depuis le client
 
-![nslookup]()
+![nslookup](screenshot/Capture_d'écran_2026-04-19_203859.png)
+![nslookup](screenshot/Capture_d'écran_2026-04-19_203843.png)
 
-> Résolution DNS directe et inverse depuis le client en interrogeant `172.16.10.5`.
+> Résolution DNS directe `srv-dns.wilders.lan` et `dns.wilders.lan` .
