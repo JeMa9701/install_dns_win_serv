@@ -5,9 +5,8 @@
 
 ---
 
-## 1. Zone directe
+## 1. Fichier Config
 
-![zonedirect]()
 ![zonedirect]()
 
 ## 2. Ping vers le nom A — `wilders.lan` et Ping vers le CNAME — `www.wilders.lan`
