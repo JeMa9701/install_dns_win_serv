@@ -2,14 +2,16 @@
 
 **Serveur DNS :** `172.16.20.5`  
 **Zone directe :** `wilders.lan`
+**CNAME :** `www.wilders.lan`
 
 ---
 
 ## 1. Fichier Config
 
-![zonedirect]()
+![zonedirect](screenshot/Config_Debian.png)
 
-## 2. Ping vers le nom A — `wilders.lan` et Ping vers le CNAME — `www.wilders.lan`
+## 2. Ping vers le nom A — `wilders.lan`
+![Ping srv-dns](screenshot/Dig_wilders.png)
 
-![Ping srv-dns]()
-![Ping srv-dns]()
+## 3. Ping vers le CNAME — `www.wilders.lan`
+![Ping srv-dns](screenshot/Dig_www.png)
